@@ -1,0 +1,76 @@
+<Test_forked_02>
+
+<Input File>
+3 7 1 9 5 6 8 4 2
+4 9 6 1 8 2 5 7 3
+2 8 5 4 7 3 9 1 6
+6 2 4 5 3 9 1 8 7
+5 1 9 7 2 8 6 3 4
+8 3 7 6 1 4 2 9 5
+1 4 3 8 6 5 7 2 9
+9 5 8 2 4 7 3 6 1
+7 6 2 3 9 1 4 5 8
+
+<Input Delay>
+5
+
+<Output Terminal>
+============================================================
+> Initialising shared resources....OK!
+> Loading grid data from file: './data'...
+    3 7 1 9 5 6 8 4 2 
+    4 9 6 1 8 2 5 7 3 
+    2 8 5 4 7 3 9 1 6 
+    6 2 4 5 3 9 1 8 7 
+    5 1 9 7 2 8 6 3 4 
+    8 3 7 6 1 4 2 9 5 
+    1 4 3 8 6 5 7 2 9 
+    9 5 8 2 4 7 3 6 1 
+    7 6 2 3 9 1 4 5 8 
+> Generating task sets... OK!
+> Launching Child tasks... 
+============================================================
+> Parent waiting...
+    <Child[9] sleep[1]>
+    <Child[6] sleep[5]>
+    <Child[11] sleep[3]>
+    <Child[10] sleep[2]>
+    <Child[5] sleep[3]>
+    <Child[4] sleep[1]>
+    <Child[3] sleep[1]>
+    <Child[2] sleep[1]>
+    <Child[1] sleep[3]>
+    <Child[7] sleep[1]>
+    <Child[8] sleep[5]>
+    <processID[5734] complete!>
+    <processID[5735] complete!>
+    <processID[5736] complete!>
+    <processID[5737] complete!>
+    <processID[5738] complete!>
+    <processID[5739] complete!>
+    <processID[5740] complete!>
+    <processID[5741] complete!>
+    <processID[5742] complete!>
+    <processID[5743] complete!>
+    <processID[5744] complete!>
+> Parent ready!
+
+============================================================
+Validation result from process ID-1: row is valid
+Validation result from process ID-2: row is valid
+Validation result from process ID-3: row is valid
+Validation result from process ID-4: row is valid
+Validation result from process ID-5: row is valid
+Validation result from process ID-6: row is valid
+Validation result from process ID-7: row is valid
+Validation result from process ID-8: row is valid
+Validation result from process ID-9: row is valid
+Validation result from process ID-10: 9 of 9 columns are valid
+Validation result from process ID-11: 9 of 9 sub-grids are valid
+There are 27 valid sub-grids, and thus the solution is valid
+============================================================
+> Freeing Resources... OK!
+> Finished!
+
+
+<Output Logfile>

@@ -1,0 +1,86 @@
+<Test_forked_01>
+
+<Input File>
+1 1 1 2 2 2 3 3 3
+1 1 6 2 2 2 3 3 3
+1 1 5 2 2 2 3 3 3
+8 3 7 6 1 4 2 9 5
+4 4 4 5 5 5 6 6 6
+4 4 3 5 5 5 6 6 6
+7 7 2 8 8 8 8 4 2
+7 7 9 8 8 8 5 7 3
+7 7 8 8 8 8 9 1 6
+
+<Input Delay>
+5
+
+<Output Terminal>
+============================================================
+> Initialising shared resources....OK!
+> Loading grid data from file: './data'...
+    1 1 1 2 2 2 3 3 3 
+    1 1 6 2 2 2 3 3 3 
+    1 1 5 2 2 2 3 3 3 
+    8 3 7 6 1 4 2 9 5 
+    4 4 4 5 5 5 6 6 6 
+    4 4 3 5 5 5 6 6 6 
+    7 7 2 8 8 8 8 4 2 
+    7 7 9 8 8 8 5 7 3 
+    7 7 8 8 8 8 9 1 6 
+> Generating task sets... OK!
+> Launching Child tasks... 
+============================================================
+> Parent waiting...
+    <Child[8] sleep[1]>
+    <Child[9] sleep[2]>
+    <Child[11] sleep[3]>
+    <Child[10] sleep[1]>
+    <Child[7] sleep[1]>
+    <Child[6] sleep[1]>
+    <Child[5] sleep[3]>
+    <Child[4] sleep[2]>
+    <Child[3] sleep[1]>
+    <Child[2] sleep[3]>
+    <Child[1] sleep[1]>
+    <processID[5705] complete!>
+    <processID[5706] complete!>
+    <processID[5707] complete!>
+    <processID[5708] complete!>
+    <processID[5709] complete!>
+    <processID[5710] complete!>
+    <processID[5711] complete!>
+    <processID[5712] complete!>
+    <processID[5713] complete!>
+    <processID[5714] complete!>
+    <processID[5715] complete!>
+> Parent ready!
+
+============================================================
+Validation result from process ID-1: row is invalid
+Validation result from process ID-2: row is invalid
+Validation result from process ID-3: row is invalid
+Validation result from process ID-4: row is valid
+Validation result from process ID-5: row is invalid
+Validation result from process ID-6: row is invalid
+Validation result from process ID-7: row is invalid
+Validation result from process ID-8: row is invalid
+Validation result from process ID-9: row is invalid
+Validation result from process ID-10: 1 of 9 columns are valid
+Validation result from process ID-11: 1 of 9 sub-grids are valid
+There are 3 valid sub-grids, and thus the solution is invalid
+============================================================
+> Freeing Resources... OK!
+> Finished!
+
+
+<Output Logfile>
+process ID-8: row 8 is invalid
+process ID-1: row 1 is invalid
+process ID-7: row 7 is invalid
+process ID-6: row 6 is invalid
+process ID-3: row 3 is invalid
+process ID-10: columns 1, 2, 4, 5, 6, 7, 8, 9 are invalid
+process ID-9: row 9 is invalid
+process ID-11: sub-grids 1, 2, 3, 4, 5, 6, 7, 8 are invalid
+process ID-5: row 5 is invalid
+process ID-2: row 2 is invalid
