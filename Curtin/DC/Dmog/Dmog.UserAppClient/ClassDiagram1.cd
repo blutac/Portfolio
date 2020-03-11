@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Dmog.UserAppClient.App" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>BQAQABEpAgAAAAxAAQGAAAAQBAAhghACAAACAQABIAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dmog.UserAppClient.WindowGame" BaseTypeListCollapsed="true">
+    <Position X="15" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAAAEAAACACAgAAAQAAAQAAAIAEAAAIAACACAhA=</HashCode>
+      <FileName>WindowGame.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dmog.UserAppClient.WindowGameLobby" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EgAQAAAAAAAJCAAAAAAAwAAAQAAAAAEAAAIAAAAAAAA=</HashCode>
+      <FileName>WindowGameLobby.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dmog.UserAppClient.WindowLogin" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAQAAAAAAgCAAAAAAAIAAAAAA=</HashCode>
+      <FileName>WindowLogin.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dmog.UserAppClient.WindowPortal" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAgCoAACBAAQAAAAQAAAAAAkAACAIAJAAA=</HashCode>
+      <FileName>WindowPortal.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

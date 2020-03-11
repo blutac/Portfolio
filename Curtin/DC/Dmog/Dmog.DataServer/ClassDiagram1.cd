@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Dmog.DataServer.DatabaseController">
+    <Position X="3" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QIgAQECAEEAAAgQCAAAhkgQCQgAABAAAAECgAAAgCAA=</HashCode>
+      <FileName>DatabaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.DataServer.DataServerConnection">
+    <Position X="6.25" Y="1.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>QIAAQEIAAAAAAAAAEAABAAAAAACAAQABEAAAQAAAAAA=</HashCode>
+      <FileName>DataServerConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.DataServer.DataServerController" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEIAAAAAAAAAEAABAAAAAACAAQABEAAAQCAAAAA=</HashCode>
+      <FileName>DataServerController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dmog.DataServer.DatabaseException" Collapsed="true">
+    <Position X="13.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DatabaseException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.DataServer.DataServerException" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DataServerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.DataServer.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.GameObjects.Ability">
+    <Position X="5" Y="11" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.Boss">
+    <Position X="0.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.BotListing">
+    <Position X="6.75" Y="17.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.BotDetail">
+    <Position X="6.75" Y="19.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.Entity">
+    <Position X="2" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.GameEventLog">
+    <Position X="4" Y="17.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.GameEvent">
+    <Position X="4" Y="19.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.GameListing">
+    <Position X="0.75" Y="17.5" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.GameDetail">
+    <Position X="0.75" Y="19.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.Hero">
+    <Position X="3" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.PlayerListing">
+    <Position X="9.25" Y="17.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.PlayerDetail">
+    <Position X="9.25" Y="19.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.PlayerMove">
+    <Position X="12.25" Y="19.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.GameObjects.User">
+    <Position X="5" Y="14.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Dmog.DataServer.IDataServerController">
+    <Position X="12.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEIAAAAAAAAAEAABAAAAAACAAQABEAAAQAAAAAA=</HashCode>
+      <FileName>IDataServerController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dmog.DataServer.IDataServerController_Callback">
+    <Position X="12.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataServerController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Dmog.GameObjects.AbilityEffect">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Dmog.GameObjects.TargetStrategy">
+    <Position X="7.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Dmog.GameObjects.TargetType">
+    <Position X="7.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

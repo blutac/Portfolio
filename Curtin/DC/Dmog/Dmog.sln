@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmog.DataServer", "Dmog.DataServer\Dmog.DataServer.csproj", "{6EE4F489-34F1-43A7-81D7-22C181E26BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmog.GameObjects", "Dmog.GameObjects\Dmog.GameObjects.csproj", "{EAE891C9-253E-49C0-A5F4-2991C53F0955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmog.PortalServer", "Dmog.PortalServer\Dmog.PortalServer.csproj", "{D6AE646B-622B-4603-8EFF-A66B41083416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmog.GameServer", "Dmog.GameServer\Dmog.GameServer.csproj", "{3D243C8B-4F37-4CBF-96B2-E7CD9530094A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmog.UserAppClient", "Dmog.UserAppClient\Dmog.UserAppClient.csproj", "{18F1E1EB-8C80-49DD-9F82-BBDE54516C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmog.ServerSupport", "Dmog.ServerSupport\Dmog.ServerSupport.csproj", "{2A80F6B4-50F4-45DD-850D-DFFB34A27FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE4F489-34F1-43A7-81D7-22C181E26BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE4F489-34F1-43A7-81D7-22C181E26BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE4F489-34F1-43A7-81D7-22C181E26BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE4F489-34F1-43A7-81D7-22C181E26BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE891C9-253E-49C0-A5F4-2991C53F0955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE891C9-253E-49C0-A5F4-2991C53F0955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE891C9-253E-49C0-A5F4-2991C53F0955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE891C9-253E-49C0-A5F4-2991C53F0955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AE646B-622B-4603-8EFF-A66B41083416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AE646B-622B-4603-8EFF-A66B41083416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AE646B-622B-4603-8EFF-A66B41083416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AE646B-622B-4603-8EFF-A66B41083416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D243C8B-4F37-4CBF-96B2-E7CD9530094A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D243C8B-4F37-4CBF-96B2-E7CD9530094A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D243C8B-4F37-4CBF-96B2-E7CD9530094A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D243C8B-4F37-4CBF-96B2-E7CD9530094A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F1E1EB-8C80-49DD-9F82-BBDE54516C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F1E1EB-8C80-49DD-9F82-BBDE54516C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F1E1EB-8C80-49DD-9F82-BBDE54516C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F1E1EB-8C80-49DD-9F82-BBDE54516C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A80F6B4-50F4-45DD-850D-DFFB34A27FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A80F6B4-50F4-45DD-850D-DFFB34A27FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A80F6B4-50F4-45DD-850D-DFFB34A27FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A80F6B4-50F4-45DD-850D-DFFB34A27FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDCC9136-97D6-492C-8BBB-47E26BA77A85}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Dmog.GameServer.GameServerException" Collapsed="true">
+    <Position X="9" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\GameServerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.GameServer.GameController">
+    <Position X="5.5" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>kEygAAAgiAI4AVEQgAUQAAAIAGsBAWEAAIgABQBACCA=</HashCode>
+      <FileName>GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.GameServer.GameServerConnection">
+    <Position X="12" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAACAAAAAAAAAAAAAYAAAAAAAAAAAEAAwAAAA=</HashCode>
+      <FileName>GameServerConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.GameServer.GameServerController" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="3.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>BBAIRAAAACChARARFBQwAECaAKlAAQAJAFIEEAyVAAA=</HashCode>
+      <FileName>GameServerController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dmog.GameServer.PlayerSession">
+    <Position X="12" Y="4.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAIAAAAAAgAQAAAAAAAAAAAgAAAEgQAAAAAA=</HashCode>
+      <FileName>PlayerSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.GameServer.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACBAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmog.ServerSupport.ClientSession" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Dmog.ServerSupport.ServerConnection&lt;TChannel, TCallbackChannel&gt;" Collapsed="true">
+    <Position X="12" Y="7.75" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Dmog.GameServer.IGameServerController">
+    <Position X="9" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAAAAAYAAAAAAAAAAAEAAwAAAA=</HashCode>
+      <FileName>IGameServerController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dmog.GameServer.IGameServerController_Callback">
+    <Position X="9" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAABAABAAAAAAAAABAgAAAAAAAAAAIAA=</HashCode>
+      <FileName>IGameServerController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Dmog.GameServer.EndRoundEventHandler">
+    <Position X="9" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dmog.GameServer.EndGameEventHandler">
+    <Position X="9" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
